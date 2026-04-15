@@ -1,36 +1,40 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# KeenKeeper - Social Connection Tracker
 
-## Getting Started
+KeenKeeper is a dedicated tool designed to help you maintain consistent contact with the people who matter most. In a busy world, it’s easy to lose track of when you last spoke to a friend or colleague. This application automates that tracking, ensuring you never let a connection fade away.
 
-First, run the development server:
+The application follows a clean, professional aesthetic with a focused color palette of Green, Yellow, and White to ensure a premium user experience.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Live Experience
+- **Live Preview:** [Your Vercel Link Here]
+- **Source Code:** [Your GitHub Link Here]
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## How It Works (The Logic)
+The core of KeenKeeper is its dynamic status engine. Based on the "Last Contact Date" you provide for each person, the app calculates their status in real-time:
+- **Up to Date:** You’ve connected recently.
+- **Almost Due:** It’s getting close to the time you should reach out.
+- **Overdue:** You’ve missed your scheduled check-in, and it's time to reconnect.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Core Features
 
-## Learn More
+- **Responsive Management:** A fully responsive grid layout that adapts from large monitors to small mobile screens using Tailwind CSS.
+- **Smart Navigation:** A custom navbar with a mobile-optimized dropdown menu, ensuring easy access to all sections on any device.
+- **Interactive UI:** Built with DaisyUI components, including premium buttons, cards, and modal-based interactions.
+- **Optimized Performance:** Uses Next.js 14 server-side features and optimized Image components for fast loading and better SEO.
+- **Graceful Error Handling:** Includes a custom animated 404 page and a global loading state to keep the user engaged during data fetching.
 
-To learn more about Next.js, take a look at the following resources:
+## Technical Details
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Frontend:** Next.js (App Router), React.js
+- **Styling:** Tailwind CSS & DaisyUI
+- **Icons & Loaders:** React Spinners & Custom SVGs
+- **Image Handling:** Configured for remote hosts like ImgBB and Google User Content.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Installation
 
-## Deploy on Vercel
+To run this project locally, follow these steps:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. Clone the repository:
+   ```bash
+   git clone [https://github.com/your-username/keenkeeper.git](https://github.com/your-username/keenkeeper.git)
