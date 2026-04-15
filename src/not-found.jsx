@@ -52,7 +52,7 @@ export default function NotFound() {
         </motion.div>
       </div>
     </div>
-  //  Vallage nh dhurrrr ajaira 
+
 
   );
 }
