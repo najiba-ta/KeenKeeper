@@ -52,6 +52,6 @@ export default function NotFound() {
         </motion.div>
       </div>
     </div>
-  //  ami najibasuijlklklklklk
+  //  Takarrum
   );
 }
