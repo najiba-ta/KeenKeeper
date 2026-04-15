@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "name": "Nashita Nishat",
+    "picture": "https://i.ibb.co.com/nqwHRRVc/najibah.png",
+    "email": "naju.t@example.com",
+    "days_since_contact": 2,
+    "status": "almost due",
+    "tags": ["Homie","Sister"],
+    "bio": "Reliable, close, and deeply understanding.",
+    "goal": 7,
+    "next_due_date": "2026-04-19"
+  },
+  {
+    "id": 2,
+    "name": "Shajeda Sultana Liza",
+    "picture": "https://i.ibb.co.com/jZjc7BWK/liza.png",
+    "email": "liza.s@example.com",
+    "days_since_contact": 5,
+    "status": "on-track",
+    "tags": ["Soulmate", "Bestie"],
+    "bio": "A dedicated learner & great collaborator.",
+    "goal": 10,
+    "next_due_date": "2026-04-20"
+  },
+  {
+    "id": 3,
+    "name": "MJ Devil",
+    "picture": "https://i.ibb.co.com/HfQJz3gK/devil.png",
+    "email": "mj.devil@example.com",
+    "days_since_contact": 8,
+    "status": "almost due",
+    "tags": ["Friend","Red Flag"],
+    "bio": "The coding beast & unique problem-solver.",
+    "goal": 10,
+    "next_due_date": "2026-04-16"
+  },
+  {
+    "id": 4,
+    "name": "Sohanur Rahman",
+    "picture": "https://i.ibb.co.com/yFnT0Xzv/shohan.png",
+    "email": "sohan@example.com",
+    "days_since_contact": 1,
+    "status": "on-track",
+    "tags": ["Frienemy"],
+    "bio": "Expert at catching errors & winning arguments.",
+    "goal": 14,
+    "next_due_date": "2026-04-29"
+  },
+  {
+    "id": 5,
+    "name": "Babul Hossain",
+    "picture": "https://i.ibb.co.com/d4Y7jHp9/babul.png",
+    "email": "babul.h@example.com",
+    "days_since_contact": 10,
+    "status": "overdue",
+    "tags": [ "Good Friend"],
+    "bio": "Quiet, polite, and a clean-code enthusiast.",
+    "goal": 5,
+    "next_due_date": "2026-04-12"
+  },
+  {
+    "id": 6,
+    "name": "Afra Anjum",
+    "picture": "https://i.ibb.co.com/F4F3dYT6/afra.png",
+    "email": "afra@example.com",
+    "days_since_contact": 3,
+    "status": "on-track",
+    "tags": ["Inspiration"],
+    "bio": "Supportive mentor with a gift for teaching.",
+    "goal": 7,
+    "next_due_date": "2026-04-22"
+  },
+  {
+    "id": 7,
+    "name": "Ahasan Habib Utsho",
+    "picture": "https://i.ibb.co.com/sDkWcwL/utsho.png",
+    "email": "utsho@gmail.com",
+    "days_since_contact": 4,
+    "status": "overdue",
+    "tags": ["Role Model","Elder"],
+    "bio": "Pro debugger who makes complex topics easy.",
+    "goal": 15,
+    "next_due_date": "2026-04-25"
+  },
+  {
+    "id": 8,
+    "name": "Ismot Ara Dipty",
+    "picture": "https://i.ibb.co.com/fVcKy4zb/dipty.png",
+    "email": "dipty@gmail.com",
+    "days_since_contact": 6,
+    "status": "almost due",
+    "tags": ["Senior", "Priority"],
+    "bio": "Calm, brilliant mentor who simplifies the complex.",
+    "goal": 14,
+    "next_due_date": "2026-04-18"
+  }
+]
