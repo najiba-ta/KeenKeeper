@@ -8,7 +8,7 @@ The application follows a clean, professional aesthetic with a focused color pal
 
 ## Live Experience
 - **Live Preview:** [Your Vercel Link Here]
-- **Source Code:** [Your GitHub Link Here]
+- **Source Code:** [https://github.com/najiba-ta/KeenKeeper]
 
 ## How It Works (The Logic)
 The core of KeenKeeper is its dynamic status engine. Based on the "Last Contact Date" you provide for each person, the app calculates their status in real-time:
