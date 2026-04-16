@@ -18,7 +18,7 @@ return (
         <div className='container mx-auto p-7'>
             <h2 className='text-4xl font-bold mb-10 text-center'>Friendship Analytics</h2>
             
-            <div className='card shadow-2xl p-10 bg-white rounded-2xl border border-gray-100 max-w-3xl mx-auto'>
+            <div className='card shadow-2xl p-10 bg-white rounded-2xl border border-gray-100 max-w-3xl mx-auto hover:bg-blue-50'>
                 <h2 className='text-2xl text-gray-400 font-semibold mb-10 text-center'>
                     By Interaction Type
                 </h2>

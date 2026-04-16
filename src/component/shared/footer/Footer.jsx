@@ -4,7 +4,7 @@ import { FaXTwitter } from 'react-icons/fa6';
 
 const Footer = () => {
     return (
-        <div className='bg-green-900 p-20'>
+        <div className='bg-green-900 p-20 hover:bg-green-950 transition duration-300'>
             <h1 className='text-7xl font-bold text-white text-center mb-4'>KeenKeeper</h1>
             <p className='text-1xl text-white text-center mb-4'>Your personal shelf of meaningful connections. Browse, tend, and nurture the relationships that matter most.</p>
             <p className='text-center text-white text-2xl'>Social Links</p>

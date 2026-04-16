@@ -5,7 +5,9 @@ import { IoArchive } from 'react-icons/io5';
 import { MdDelete, MdSnooze } from 'react-icons/md';
 
 const friendsPromise = async function () {
-    const res = await fetch("http://localhost:3000/friend.json");
+    const res = await fetch("http://localhost:3000/friend.json",{
+        cache:"no-store"});
+
     const friend = await res.json();
     return friend;
 };
@@ -33,7 +35,7 @@ const page = async ({ params }) => {
             <div className='grid grid-cols-12 gap-6'>
 
                 <div className='grid col-span-4'>
-                    <div className='card shadow-md border border-gray-100 p-6 flex flex-col items-center bg-white rounded-xl'>
+                    <div className='card shadow-md border border-gray-100 p-6 flex flex-col items-center bg-white rounded-xl hover:bg-yellow-50'>
                         <Image
                             src={friend.picture}
                             alt={friend.name}
@@ -82,20 +84,20 @@ const page = async ({ params }) => {
 
                 <div className='grid col-span-8 gap-4'>
 
-                    <div className='card shadow-md border border-gray-100 p-5 flex flex-col items-center justify-center bg-white rounded-xl'>
+                    <div className='card shadow-md border border-gray-100 p-5 flex flex-col items-center justify-center bg-white rounded-xl hover:bg-yellow-50'>
                         <p className="text-2xl font-bold text-green-600">{friend.days_since_contact}</p>
                         <p className='text-gray-500 text-sm'>Days Since Contact</p>
                     </div>
-                    <div className='card shadow-md border border-gray-100 p-5 flex flex-col items-center justify-center bg-white rounded-xl'>
+                    <div className='card shadow-md border border-gray-100 p-5 flex flex-col items-center justify-center bg-white rounded-xl hover:bg-yellow-50'>
                         <p className="text-2xl font-bold text-blue-600">{friend.goal}</p>
                         <p className='text-gray-500 text-sm'>Goal (Days)</p>
                     </div>
-                    <div className='card shadow-md border border-gray-100 p-5 flex flex-col items-center justify-center bg-white rounded-xl'>
+                    <div className='card shadow-md border border-gray-100 p-5 flex flex-col items-center justify-center bg-white rounded-xl hover:bg-yellow-50'>
                         <p className="text-2xl font-bold text-purple-600">{friend.next_due_date}</p>
                         <p className='text-gray-500 text-sm'>Next Due</p>
                     </div>
 
-                    <div className='md:col-span-3 card shadow-md border border-gray-100 p-5 flex flex-row justify-between items-center bg-white rounded-xl'>
+                    <div className='md:col-span-3 card shadow-md border border-gray-100 p-5 flex flex-row justify-between items-center bg-white rounded-xl hover:bg-yellow-50'>
                         <div>
                             <p className='font-bold text-gray-800'>Relationship Goal</p>
                             <p className='text-gray-500'>Connect every <span className='font-bold text-gray-700'>{friend.goal} days</span></p>
