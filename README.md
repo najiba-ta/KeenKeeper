@@ -7,7 +7,7 @@ The application follows a clean, professional aesthetic with a focused color pal
 ---
 
 ## Live Experience
-- **Live Preview:** [Your Vercel Link Here]
+- **Live Preview:** [https://keen-keeper-theta-one.vercel.app/]
 - **Source Code:** [https://github.com/najiba-ta/KeenKeeper]
 
 ## How It Works (The Logic)
